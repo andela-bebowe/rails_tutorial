@@ -1,5 +1,6 @@
 Rails.application.configure do
-  # Settings specified here will take precedence over those in config/application.rb.
+  # Settings specified here will take precedence
+  # over those in config/application.rb.
 
   # Code is not reloaded between requests.
   config.cache_classes = true
@@ -31,7 +32,7 @@ Rails.application.configure do
   # Do not fallback to assets pipeline if a precompiled asset is missed.
   config.assets.compile = false
 
-  # Asset digests allow you to set far-future HTTP expiration dates on all assets,
+  # Asset digests allow you to set farfuture HTTP expiration dates on all assets
   # yet still be able to expire them through the digest params.
   config.assets.digest = true
 
@@ -64,7 +65,8 @@ Rails.application.configure do
 
   # Ignore bad email addresses and do not raise
   # email delivery errors.
-  # Set this to true and configure the email server for immediate delivery to raise delivery errors.
+  # Set this to true and configure the email server
+  # for immediate delivery to raise delivery errors.
   # config.action_mailer.raise_delivery_errors = false
 
   # Enable locale fallbacks for I18n (makes lookups for any locale fall back to
